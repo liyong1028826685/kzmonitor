@@ -189,7 +189,7 @@ class Zookeeper(object):
 
         data = []
         for row in self.client.command(cmd=b'cons').split('\n'):
-            if ')' == row[-1]:
+            if row and ')' == row[-1]:
                 metric = pattern.findall(row)
 
                 if metric:

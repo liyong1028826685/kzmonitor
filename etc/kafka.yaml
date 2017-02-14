@@ -20,10 +20,3 @@
         # MyTopic:
             # - MyGroup1
             # - MyGroup2
-
-Ci:
-    server:
-        - 10.128.7.214:9092
-    topic:
-        infrastructure-test-forward:
-            - kafka-opentsdb-channel_dev_group

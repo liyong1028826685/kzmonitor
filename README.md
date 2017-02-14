@@ -8,7 +8,7 @@
 * In/Out消息统计
 * Topic增量数据排名
 * Consumer延迟实时排名
-* 每个Topic Partition的Logsize Offsets Lag
+* 可查看每个Topic Partition的Logsize Offsets Lag数据
 * 实时获取指定Group的Logsize Offsets Lag
 * 可定制的历史数据存储时间
 
@@ -27,9 +27,9 @@ cd kzmonitor; pip install -r requirements.txt
 
 ## 配置文件
 
-see `etc/server.conf` 控制数据采集间隔与存储时间等
-see `etc/kafka.yaml` 监控Kafka集群配置
-see `etc/zookeeper.yaml` 监控Zookeeper集群配置
+* `etc/server.conf` 控制数据采集间隔与存储时间等
+* `etc/kafka.yaml` 监控Kafka集群配置
+* `etc/zookeeper.yaml` 监控Zookeeper集群配置
 
 ## 启动
 
